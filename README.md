@@ -35,6 +35,24 @@ This repository contains the source code for a game under development. Below are
    - Introduction of a `collisions` boolean dictionary in `PhysicsEntity` for efficient collision detection.
    - Integration of tile map into `player.update` function in `main.py`, allowing for key press on the up arrow to trigger jump velocity.
 
+6. **Feature: Introduce Camera Follow Functionality and Parallax Background Effect**
+   - Implementation of a camera system for dynamic player follow.
+   - Introduction of background scrolling to create a parallax effect.
+   - Addition of cloud movement for enhanced visual depth.
+   - Creation of a camera class to manage scrolling and offset.
+
+7. **Feature: Implement Animation Class, Player Actions, and Enhanced Rendering**
+   - Introduction of an `Animation` class for managing frame sequences.
+   - Implementation of player action handling and rendering optimization.
+   - Creation of a `Player` class to inherit from `PhysicsEntity` for improved control.
+   - Enhancement of animation and player movement synchronization.
+
+8. **Feature: Introduce Level Editor with Asset Cycling, Placement, and Camera Movement**
+   - Development of a level editor with mouse and keyboard controls.
+   - Implementation of asset cycling, placement, deletion, and camera movement.
+   - Introduction of save/load functions for tilemap data.
+   - Implementation of autotiling algorithm for efficient tilemap creation.
+
 
 ### How to Run:
 1. Ensure you have Python installed on your system.
@@ -49,10 +67,5 @@ This repository contains the source code for a game under development. Below are
 
 ### Contributing:
 - Contributions are currently not open for external contributions, as the project is primarily for personal learning purposes. However, feel free to explore the codebase, provide feedback, or use it as a learning resource. Thank you for your understanding!
-
-### Future Plans:
-- Implement game mechanics such as scoring, enemy entities, and level progression.
-- Enhance graphics and add sound effects.
-- Improve user interface and menu screens.
 
 Stay tuned for further updates and features!
